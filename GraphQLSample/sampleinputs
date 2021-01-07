@@ -1,1 +1,35 @@
+//Query sample
+query {  
+  authors
+  {
+    firstName
+  }
+  blogs
+  {
+    title
+  }
+   author(id:1)
+  {
+    id,
+    firstName,
+    lastName    
+  }    
+}
 
+//Mutation sample
+mutation ($input1:createAuthorInput1!)
+{
+createAuthor(authorInput:$input1)
+{
+  id,
+  firstName,
+    lastName 
+}
+}
+
+{
+  "input1":{
+    "firstName":"Rober",
+    "lastName":"c"
+  }
+}
