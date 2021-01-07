@@ -66,7 +66,7 @@ mutation createblogauthor($input1:blogPostInputTypeField!)
 //mutation for author and blog sample-4
 mutation
 {
-createAuthor(authorInput:{firstName:"srujana",lastName:"R"})
+createAuthor(authorInput:{firstName:"Robert",lastName:"c"})
 {
   id,  
   firstName,
