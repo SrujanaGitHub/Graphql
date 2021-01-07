@@ -27,6 +27,7 @@ createAuthor(authorInput:$input1)
 }
 }
 
+//Query Variables
 {
   "input1":{
     "firstName":"Rober",
